@@ -57,7 +57,6 @@ public class MainMenu {
                     System.out.println(HotelResource.getInstance().getCustomer(email));
                     displayMainMenu();
 
-
                     break;
 
                 case 4:
@@ -81,7 +80,6 @@ public class MainMenu {
 
         //sc.close();
 
-
     }
 
     private static Date validDate(final Scanner scanner) {
@@ -94,8 +92,6 @@ public class MainMenu {
 
         return null;
     }
-
-
 
     public static void findAndBook() {
         Scanner sc1 = new Scanner(System.in);
@@ -148,8 +144,6 @@ public class MainMenu {
 
             }
 
-
-
         }
     } }
     public static void displayMainMenu() {
@@ -164,9 +158,5 @@ public class MainMenu {
 
 
     }
-
-
-
-
 
 }
